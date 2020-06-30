@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Movies</title>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Movie Recommender Systems</h1>
+    <form action="/action_page.php" method="get">
+        <label for="movie">Choose a movie from the list:</label>
+        <input list="movies" name="movie" id="movie">
+        <datalist id="movies">
+            {% for movie in mlist %} <option value="{{movie}}">
+                {% endfor %}
+        </datalist>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

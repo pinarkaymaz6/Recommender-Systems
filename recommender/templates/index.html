@@ -2,18 +2,17 @@
 <html>
 
 <head>
-    <title>Datastore and Firebase Auth Example</title>
+    <title>Demo</title>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-    <h1>Datastore and Firebase Auth Example</h1>
+    <h1>Recommender Systems Demo</h1>
+    <p><a href="{{ url_for('movies') }}">Movies</a></p>
+    <p>Books</p>
 
-    <h2>Last 10 visits</h2>
-    {% for time in times %} <p>{{ time }}</p>
-    {% endfor %}
 </body>
 
 </html>
