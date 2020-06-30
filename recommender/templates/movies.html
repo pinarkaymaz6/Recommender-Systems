@@ -10,17 +10,17 @@
 <body>
 
     <h1>Movie Recommender System</h1>
-    <p>-- IN PROGRESS --</p>
-    <form action="/action_page.php" method="get">
-        <label for="movie">Choose a movie from the list:</label>
-        <input list="movies" name="movie" id="movie">
-        <datalist id="movies">
-            {% for movie in mlist %} <option value="{{movie}}">
+    <label for="input_movies">Choose a movie from the list:</label>
+    <input list="movies" name="input_movies" id="input_movies" style="width: 200px;">
+    <datalist id="movies">
+            {% for movie in mlist %}
+                <option value="{{movie}}">
                 {% endfor %}
-        </datalist>
-        <input type="submit">
-    </form>
-
+    </datalist>
+    <input type="button" id="submit" value="Submit" style="background-color:beige;">
+    
+    <h3 style="margin-top: 50px;">Similar Movies</h3>
+    <p id="result"></p>
 </body>
 
 </html>
