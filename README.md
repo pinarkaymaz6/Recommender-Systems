@@ -1,5 +1,12 @@
 ## Recommender Systems
 
+[![Website monip.org](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](http://recommendersystems.appspot.com/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
+
+
+
 The application is live at [http://recommendersystems.appspot.com/](http://recommendersystems.appspot.com/).
 
 ## Setup
