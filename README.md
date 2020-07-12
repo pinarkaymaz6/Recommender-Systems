@@ -3,7 +3,7 @@
 [![Website monip.org](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](http://recommendersystems.appspot.com/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![HitCount](http://hits.dwyl.com/pinarkaymaz6/Recommender-Systems.svg)](http://hits.dwyl.com/pinarkaymaz6/Recommender-Systems)
-
+[![GitHub last commit](https://img.shields.io/github/last-commit/pinarkaymaz6/Recommender-Systems.svg?style=flat)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
 
